@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  }
+
+  code, pre, textarea.font-mono {
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  }
+}
+
+.search-pill-outer {
+  background: linear-gradient(180deg, #245259 0%, #285759 100%);
+  border-radius: 1.12rem;
+  padding: 0.45rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.search-pill-inner {
+  background: linear-gradient(180deg, #193a40 0%, #1c3d40 100%);
+  border-radius: 0.74rem;
+  padding: 0.4rem 0.9rem 0.4rem 0.68rem;
+  display: flex;
+  align-items: center;
+  gap: 0.58rem;
+  transition: box-shadow 0.15s, background 0.15s;
+}
+
+.search-pill-inner:focus-within {
+  box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, 0.22);
+  background: #153237;
+}
+
+.lg-preview-bg {
+  background: linear-gradient(180deg, #05697a 0%, #497538 100%);
+  position: relative;
+}
+
+.lg-preview-card {
+  background: rgba(10, 21, 24, 0.56);
+  backdrop-filter: blur(36px) saturate(165%);
+  -webkit-backdrop-filter: blur(36px) saturate(165%);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.14),
+    0 18px 44px rgba(0, 0, 0, 0.28);
+}
+
+.lg-preview-seg {
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.lg-preview-cta {
+  background: #0a84ff;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22), 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+

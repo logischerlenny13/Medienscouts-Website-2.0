@@ -1,0 +1,6 @@
+{
+  "name": "Schulportal · Code-Export & Vorschau",
+  "description": "Überarbeitetes Schulportal mit Ende-zu-Ende-verschlüsseltem Passwort-Reset, neuer Suchleiste und behobenen Chat- und Klick-Fehlern zum Kopieren und Herunterladen.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
